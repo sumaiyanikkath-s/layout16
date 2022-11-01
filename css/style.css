@@ -1,0 +1,379 @@
+.header .wrapper
+{
+width:80%;
+margin:auto;
+}
+.banner .wrapper
+{
+width:80%;
+margin:auto;
+}
+.laborum .wrapper
+{
+width:80%;
+margin:auto;
+}
+.contentbox .wrapper
+{
+width:80%;
+margin:auto;
+}
+.portfolio .wrapper
+{
+width:80%;
+margin:auto;
+}
+.client .wrapper
+{
+width:80%;
+margin:auto;
+}
+.about .wrapper
+{
+width:80%;
+margin:auto;
+}
+.copyright .wrapper
+{
+width:80%;
+margin:auto;
+}
+
+.header
+{
+	background-color:MediumPurple;
+	height:70px;
+}
+.header-fc
+{ 
+	
+	display:flex;
+	justify-content:space-between;
+}
+.header .header-fc .header-logo
+{
+	background-color:plum;
+	width:12%;
+	height:33px;
+	margin-top:5px;
+}
+.header .header-fc .header-navi
+{
+	background-color:plum;
+	width:70%;
+	height:33px;
+	margin-top:5px;
+}
+.banner
+{
+	background-color:gray;
+	height:465px;
+}
+.banner .banner-fc
+{
+	display:flex;
+	justify-content:center;	
+	flex-direction:column;
+	flex-wrap:wrap;
+	align-items:center;
+}
+.banner .banner-fc .boxa
+{
+	background-color:white;
+	height:250px;
+	width:65%;
+	margin-top:100px;
+	display:flex;
+	justify-content:center;
+}
+.banner .banner-fc .boxa .boxb
+{
+	background-color:blue;
+	height:40px;
+	width:15%;
+	margin-top:150px;
+	text-align:center;
+}
+.laborum
+{
+	background-color:mediumpurple;
+	height:430px;
+}
+.laborum .laborum-fc
+{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+}
+.laborum .laborum-fc .logoa
+{
+	width:40%;
+	height:240px;
+	margin-top:50px;
+	background-color:white;
+	text-align:center;
+}
+.laborum .laborum-fc .logob
+{
+	background-color:white;
+	width:55%;
+	height:330px;
+	text-align:center;
+	margin-top:50px;
+}
+.contentbox
+{
+	background-color:gray;
+	height:846px;
+}
+.contentbox .contentbox-fc
+{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-evenly;
+}
+.contentbox .contentbox-fc .boxa
+{
+	width:32%;
+	height:348px;
+	margin-top:80px;
+	background-color:white;
+	text-align:center;
+}
+.contentbox .contentbox-fc .boxb
+{
+	background-color:blue;
+	width:32%;
+	height:348px;
+	text-align:center;
+	margin-top:80px;
+}
+.contentbox .contentbox-fc .boxc
+{
+	background-color:white;
+	width:32%;
+	height:348px;
+	margin-top:80px;
+	text-align:center;
+}
+.contentbox .contentbox-fc .boxd
+{
+	width:32%;
+	height:348px;
+	background-color:white;
+	margin-top:25px;
+	text-align:center;
+}
+.contentbox .contentbox-fc .boxe
+{
+	background-color:blue;
+	width:32%;
+	height:348px;
+	margin-top:25px;
+	text-align:center;
+}
+.contentbox .contentbox-fc .boxf
+{
+	width:32%;
+	height:348px;
+	background-color:white;
+	margin-top:25px;
+	text-align:center;
+}
+.portfolio
+{
+	background-color:red;
+	height:1341px;
+}
+.portfolio .portfolio-fc
+{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-evenly;
+	text-align:center;
+}
+.portfolio .portfolio-fc .boxa
+{
+	width:360px;
+	height:362px;
+	margin-top:100px;
+	background-color:white;
+}
+.portfolio .portfolio-fc .boxb
+{
+	background-color:white;
+	width:300px;
+	height:266px;
+	text-align:center;
+	margin-top:100px;
+}
+.portfolio .portfolio-fc .boxc
+{
+	background-color:white;
+	width:300px;
+	height:266px;
+	margin-top:100px;
+}
+.portfolio .portfolio-fc .boxd
+{
+	width:300px;
+	height:266px;
+	background-color:white;
+	margin-top:40px;
+}
+.portfolio .portfolio-fc .boxe
+{
+	background-color:white;
+	width:300px;
+	height:266px;
+	margin-top:40px;
+}
+.portfolio .portfolio-fc .boxf
+{
+	width:300px;
+	height:266px;
+	background-color:white;
+	margin-top:40px;
+}
+.portfolio .portfolio-fc .boxg
+{
+	width:300px;
+	height:266px;
+	background-color:white;
+	margin-top:40px;
+}
+.portfolio .portfolio-fc .boxh
+{
+	background-color:white;
+	width:300px;
+	height:266px;
+	margin-top:40px;
+}
+.portfolio .portfolio-fc .boxi
+{
+	width:300px;
+	height:266px;
+	background-color:white;
+	margin-top:40px;
+}
+.client
+{
+	background-color:plum;
+	height:396px;
+}
+.client .client-fc
+{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	text-align:center;
+}
+.client .client-fc .texta
+{
+	width:100%;
+	margin-top:40px;
+}
+.client .client-fc .boxa
+{
+	width:25%;
+	height:102px;
+	margin-top:40px;
+	background-color:blue;
+}
+.client .client-fc .boxb
+{
+	background-color:white;
+	width:25%;
+	height:102px;
+	margin-top:40px;
+}
+.client .client-fc .boxc
+{
+	background-color:blue;
+	width:25%;
+	height:102px;
+	margin-top:40px;
+}
+.client .client-fc .boxd
+{
+	width:25%;
+	height:102px;
+	background-color:white;
+	margin-top:40px;
+}
+.client .client-fc .boxe
+{
+	width:25%;
+	height:102px;
+	background-color:white;
+}
+.client .client-fc .boxf
+{
+	width:25%;
+	height:102px;
+	background-color:blue;
+}
+.client .client-fc .boxg
+{
+	width:25%;
+	height:102px;
+	background-color:white;
+}
+.client .client-fc .boxh
+{
+	width:25%;
+	height:102px;
+	background-color:blue;
+}
+.about
+{
+	background-color:gray;
+	height:337px;
+}
+.about .about-fc
+{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+	text-align:center;
+}
+.about .about-fc .boxa
+{
+	width:205px;
+	height:257px;
+	margin-top:20px;
+	background-color:white;
+	margin-right:40px;
+}
+.about .about-fc .boxb
+{
+	background-color:white;
+	width:172px;
+	height:263px;
+	margin-top:20px;
+	margin-right:40px;
+}
+.about .about-fc .boxc
+{
+	background-color:white;
+	width:193px;
+	height:254px;
+	margin-top:20px;
+	margin-right:40px;
+}
+.about .about-fc .boxd
+{
+	width:405px;
+	height:249px;
+	background-color:white;
+	margin-top:20px;
+	margin-right:40px;
+}
+.copyright
+{
+	background-color:MediumPurple;
+	height:134px;
+}
